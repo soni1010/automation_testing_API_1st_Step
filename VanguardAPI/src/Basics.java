@@ -47,10 +47,10 @@ public class Basics {
 	
 	List<Map<String, Object>> NavPriceArray = get(resource.placeGetData()).as(new TypeRef<List<Map<String, Object>>>() {});
 	
-	//JsonPath js = new JsonPath(responseString);
-	//String portID[] = js.get("portID");
-	//System.out.println(portID);
-	//System.out.println(js.get("portId"));
+	/*JsonPath js = new JsonPath(responseString);
+	String portID[] = js.get("portID");
+	System.out.println(portID);
+	System.out.println(js.get("portId"));*/
 	  
 /*	int count = js.get("navPriceArray.size()");
 	for (int i=0; i<count; i++)
